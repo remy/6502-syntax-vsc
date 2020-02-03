@@ -7,6 +7,7 @@
 		<string>6502</string>
 		<string>asm</string>
 		<string>s</string>
+		<string>bbc</string>
 	</array>
 	<key>name</key>
 	<string>6502/BeebAsm Assembly</string>
@@ -139,6 +140,12 @@
 					<string>(?i)(lo|hi|sqr|sin|cos|tan|acs|asn|atn|rad|deg|abs|int|sgn|rnd|not|log|ln|exp)(?=\()\b</string>
 					<key>name</key>
 					<string>keyword.other.functions</string>
+				</dict>		
+				<dict>
+					<key>match</key>
+					<string>(?i)(adval|asc|auto|bget|bput|call|chain|chr|clear|clg|close|cls|colour|color|count|data|def|delete|dim|draw|end|endproc|envelope|eof|erl|err|error|eval|ext|fn|gcol|get|gosub|goto|himem|inkey|input|line|instr|left|len|let|list|listo|load|local|lomem|mid|mode|move|new|off|old|on|openin|openout|openup|oscli|page|plot|point|pos|print|proc|ptr|put|read|rem|renumber|repeat|report|restore|return|right|run|save|sound|spc|step|stop|str|string|tab|then|time|top|trace|until|usr|val|vdu|vpos|width)(?=\()\b</string>
+					<key>name</key>
+					<string>keyword.control</string>
 				</dict>		
 				<dict>
 					<key>match</key>

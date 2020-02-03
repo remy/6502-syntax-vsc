@@ -38,7 +38,7 @@
         "languages": [{
             "id": "6502",
             "aliases": ["6502/BeebAsm Assembly"],
-            "extensions": [".asm", ".6502", ".s"],
+            "extensions": [".asm", ".6502", ".s", ".bbc"],
             "configuration": "./beeb-vsc.configuration.json"
         }],
         "grammars": [{
